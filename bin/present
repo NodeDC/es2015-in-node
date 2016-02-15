@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+var fs = require("fs");
+var path = require("path");
+var spawn = require("child_process").spawn;
+var yaml = require("js-yaml");
+var slides = yaml.safeLoad(fs.readFileSync(path.resolve(__dirname, "..", "slides.yaml"), "utf8"));
+var deck = require("..");
+var serve = require("../serve");
+
+deck(slides, function (err, html) {
+	if (err) {
+		throw err;
+	}
+	else {
+		html = html.replace(/Your deck.js Presentation/, "Hello World of ES2015 in Node Core");
+		serve(html, function (err, address) {
+			spawn("open", [ `http://localhost:${address.port}/` ], {
+				cwd: path.resolve(__dirname, ".."),
+				detached: true
+			});
+		});
+	}
+});

@@ -1,0 +1,34 @@
+{
+  "name": "es2015-in-node",
+  "version": "1.0.0",
+  "description": "Deck for Hello World of ES2015 in Node Core",
+  "main": "deck.js",
+  "bin": {
+    "es2015-in-node": "bin/present"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan MacTough <danmactough@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deck-lightning": "0.0.1",
+    "js-yaml": "^3.5.3",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeDC/es2016-in-node.git"
+  },
+  "keywords": [
+    "node",
+    "es6",
+    "presentation",
+    "deck"
+  ],
+  "bugs": {
+    "url": "https://github.com/NodeDC/es2016-in-node/issues"
+  },
+  "homepage": "https://github.com/NodeDC/es2016-in-node#readme"
+}
