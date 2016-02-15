@@ -54,11 +54,16 @@ function saveAllRemoteGists (items) {
 }
 
 module.exports = function (items, cb) {
-	saveAllRemoteGists(items)
+	saveAllRemoteGists(items.filter(function (item) { return typeof item === "object"; }))
 		.then(function () {
 			opts.files = items.map(function (item) {
-				return item.filename;
-			}).concat("end.md");
+				if (typeof item === "string") {
+					return item;
+				}
+				else {
+					return item.filename;
+				}
+			});
 			dl(opts, cb);
 		});
 };
