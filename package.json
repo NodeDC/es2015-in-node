@@ -19,7 +19,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NodeDC/es2016-in-node.git"
+    "url": "git+https://github.com/NodeDC/es2015-in-node.git"
   },
   "keywords": [
     "node",
@@ -28,7 +28,7 @@
     "deck"
   ],
   "bugs": {
-    "url": "https://github.com/NodeDC/es2016-in-node/issues"
+    "url": "https://github.com/NodeDC/es2015-in-node/issues"
   },
-  "homepage": "https://github.com/NodeDC/es2016-in-node#readme"
+  "homepage": "https://github.com/NodeDC/es2015-in-node#readme"
 }
