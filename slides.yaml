@@ -20,9 +20,6 @@
 -
   filename: string_interpolation.MD
   url: https://gist.github.com/dan-ator/6a55c85964e9833a27c0
--
-  filename: const.md
-  url: https://gist.github.com/joshfinnie/2c8215faecf8e1ed5507
 - array-includes.md
 - enhanced-object-literals.md
 -
@@ -48,4 +45,7 @@
   filename: map.md
   url: https://gist.github.com/ultrabluewolf/984afd74781a78c3b4a7
 - ForOfLoops.md
+-
+  filename: const.md
+  url: const.md
 - end.md
