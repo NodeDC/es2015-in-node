@@ -8,4 +8,7 @@
 -
   filename: Object.getOwnPropertyNames().md
   url: https://gist.github.com/arasevic/574d8785fc02f49d5e80
+-
+  filename: string_interpolation.MD
+  url: https://gist.github.com/dan-ator/6a55c85964e9833a27c0
 - end.md
