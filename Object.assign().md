@@ -37,3 +37,18 @@ console.log(targetWithReadOnlyProperty['uh-oh']);  // 'this is going to throw an
 console.log(targetWithReadOnlyProperty.foo3); // undefined, assign method has finished, foo3 will not be copied.
 console.log(targetWithReadOnlyProperty.baz);  // undefined, the third source will not be copied either.
 ```
+
+### Copying an Object with Getters
+
+```
+var objectWithAGetter = {
+  name: 'Team Awesome',
+  get members() {
+    return ['Trey', 'Phil'];
+  }
+};
+
+var ourTeam = Object.assign({}, objectWithAGetter); 
+console.log(ourTeam); 
+// { name: 'Team Awesome', members: ['Trey', 'Phil'] }, the value of ourTeam.members is the computed return value
+```
