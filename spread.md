@@ -5,7 +5,8 @@
 >
 > --<cite><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator">MDN</a></cite>
 
-
+##Arrays - Multiple Elements 
+###Combining Arrays 
 ```javascript 
 var speak = ['Hello world.', ' This is a test', ' of']; 
 console.log([...speak, " spread" ]);
@@ -19,7 +20,7 @@ var speak = ['Hello world.', ' This is a test', ' of'];
 console.log([speak, " spread" ]);
 // => ['Hello world.', ' This is a test', ' of'], ' spread']
 ```
-##Practical Application 
+##Functions - Multiple Arguments 
 ###Passing an array as the list of arguments to a function
 
 Passing an array to a function with multiple parameters: 
@@ -49,7 +50,7 @@ backpack.apply(undefined, array);
 The .apply method allows us to execute a function with an array of parameters. 
 
 In ES6 use the spread operator to execute a function with an array of parameters. Note that the 
-spread operator will start at the beginning of the array to populate the parameters.
+spread operator will start at the beginning of the array to populate the parameters - it 'spreads' the array across a function's parameters.
 
 ```javascript
 backpack(...array);
