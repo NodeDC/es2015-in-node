@@ -41,6 +41,7 @@
     filename: string-additions.md
     url: https://gist.github.com/tylerfranklin/ebb21802bfa413d85642
 - rest.md
+- string-additions-unicode-normalize.md
 -
   filename: generator.md
   url: https://gist.github.com/sdotson/0c0f07bc2e3fe44449e4
