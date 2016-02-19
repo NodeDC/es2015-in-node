@@ -20,7 +20,6 @@
   filename: Object.assign().md
   url: /Object.assign().md
 - spread.md
-- end.md
   filename: binary-octal-literals.md
   url: https://gist.github.com/solowt/032bc3e3661576da02c2
 - arrow.md
@@ -29,7 +28,6 @@
 -
   filename: classes.md
   url: https://gist.github.com/yalcindo/9b08010e6c6b130b6536
-- end.md
 -
     filename: string-additions.md
     url: https://gist.github.com/tylerfranklin/ebb21802bfa413d85642
@@ -37,4 +35,7 @@
 -
   filename: generator.md
   url: https://gist.github.com/sdotson/0c0f07bc2e3fe44449e4
+-
+  filename: map.md
+  url: https://gist.github.com/ultrabluewolf/984afd74781a78c3b4a7
 - end.md
