@@ -5,4 +5,7 @@
   filename: Object.is.md
   url: https://gist.github.com/ahouck/d241b8d49ef4673b602d
 - string-from-codepoint-codepoint-at.md
+-
+  filename: Object.getOwnPropertyNames().md
+  url: https://gist.github.com/arasevic/574d8785fc02f49d5e80
 - end.md
