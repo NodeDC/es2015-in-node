@@ -20,7 +20,7 @@ obj["bar" + func()] = "baz";
 ```js
 const foo = 'foo';
 
-var obj = {
+const obj = {
   foo,
   test() {return "test";},
   ["bar" + func()]: "baz";
