@@ -50,4 +50,5 @@
   filename: const.md
   url: const.md
 - typed-array.md
+- array-includes.md
 - end.md
