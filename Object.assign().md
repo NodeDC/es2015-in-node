@@ -1,6 +1,5 @@
 # Object.assign()
-
-## By Trey and Phil
+By Trey and Phil
 
 ### Cloning and Object
 
