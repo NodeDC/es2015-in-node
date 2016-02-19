@@ -26,3 +26,5 @@ var obj = {
   ["bar" + func()] = "baz";
 };
 ```
+
+![Chillin](http://i.imgur.com/mM6p7Be.gif)
