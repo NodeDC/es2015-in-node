@@ -25,9 +25,7 @@
   url: https://gist.github.com/dan-ator/6a55c85964e9833a27c0
 - array-includes.md
 - enhanced-object-literals.md
--
-  filename: Object.assign().md
-  url: /Object.assign().md
+- Object.assign().md
 - spread.md
   filename: binary-octal-literals.md
   url: https://gist.github.com/solowt/032bc3e3661576da02c2
@@ -51,4 +49,5 @@
 -
   filename: const.md
   url: const.md
+- typed-array.md
 - end.md
