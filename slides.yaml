@@ -1,4 +1,7 @@
 -
   filename: string-repeat.md
   url: https://gist.github.com/kylehill/3f88cd63bbb3f431176e
+-
+  filename: Object.is.md
+  url: https://gist.github.com/ahouck/d241b8d49ef4673b602d
 - end.md
