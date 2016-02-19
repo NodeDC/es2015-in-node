@@ -1,7 +1,7 @@
-ES2015 classes are snytactical sugar over Javacsripts existing prototype based inheritance.
+```js
+	//ES2015 classes are snytactical sugar over Javacsripts existing prototype based inheritance.
 
-Class Declaration
-```
+		//Class Declaration
 	class Car {
 		constructor(color,age) {
 			this.color = color;
@@ -10,12 +10,12 @@ Class Declaration
 		}
 	}
 
-```
-Class Declarations dont hoist.
+
+	//Class Declarations dont hoist.
 
 
-Class Expressions
-```
+	//Class Expressions
+
 	var Car = class {
 		constructor(color,age){
 
@@ -27,10 +27,9 @@ Class Expressions
 
 		}
 	}
-```
 
-Method definition
-```
+
+// Method definition
 class Car {
 	constructor(color,age) {
 		this.color = color;
@@ -47,12 +46,11 @@ class Car {
 		 return this.age;
 	 }
 }
-```
 
 
-Static Methods
 
-```
+//Static Methods
+
 class Car {
 	constructor() {
 
