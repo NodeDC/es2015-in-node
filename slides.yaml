@@ -14,6 +14,7 @@
 -
   filename: const.md
   url: https://gist.github.com/joshfinnie/2c8215faecf8e1ed5507
+- array-includes.md
 - enhanced-object-literals.md
 -
   filename: Object.assign().md
