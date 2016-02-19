@@ -2,3 +2,6 @@
   filename: string-repeat.md
   url: https://gist.github.com/kylehill/3f88cd63bbb3f431176e
 - end.md
+  filename: binary-octal-literals.md
+  url: https://gist.github.com/solowt/032bc3e3661576da02c2
+- end.md
