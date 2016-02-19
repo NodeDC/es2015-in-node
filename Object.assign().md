@@ -3,9 +3,11 @@ By Trey and Phil
 
 ### Cloning and Object
 
+```
 var theOriginal = { name: 'Phil' };
 var myClone = Object.assign({}, theOriginal);
 console.log(myClone); // { name: 'Phil' }
+```
 
 ### Merging Objects
 
