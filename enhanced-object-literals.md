@@ -27,4 +27,4 @@ var obj = {
 };
 ```
 
-![Chillin](http://i.imgur.com/mM6p7Be.gif)
+![](http://i.imgur.com/Ma8KGos.gif)
