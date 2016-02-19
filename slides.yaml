@@ -20,3 +20,6 @@
   url: /Object.assign().md
 - spread.md
 - end.md
+  filename: binary-octal-literals.md
+  url: https://gist.github.com/solowt/032bc3e3661576da02c2
+- end.md
