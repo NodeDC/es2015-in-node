@@ -56,4 +56,7 @@
 -
   filename: Object.setPrototypeOf.md
   url: https://gist.github.com/ahouck/492a6f2ccedf083c2244
+
+- filename: weakmaps.md
+  url: https://gist.github.com/rektide/917dfc1fd18d4772b457
 - end.md
