@@ -1,6 +1,6 @@
 # Enhanced Object Literals
 
-## Computed Properties
+## Robbie Wagner, Daniel Luu, Kevin Lee
 
 ###ES5
 
@@ -15,7 +15,7 @@ var obj = {
 obj["bar" + func()] = "baz";
 ```
 
-###ES2015
+##ES2015
 
 ```js
 const foo = 'foo';
