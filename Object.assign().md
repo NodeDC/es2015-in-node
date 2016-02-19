@@ -12,10 +12,10 @@ console.log(myClone); // { name: 'Phil' }
 ### Merging Objects
 
 ```
-let teamName = {name: 'Team Awesome'};
-let teamMembers = {members: ['Phil', 'Trey']};
+let team1 = {name: 'Team Awesome'};
+let team2 = {members: ['Phil', 'Trey']};
 
-let ourAwesomeTeam = Object.assign({}, teamName, teamMembers);
+let ourAwesomeTeam = Object.assign({}, team1, team2);
 
 console.log(ourAwesomeTeam); // {name: 'Team Awesome', members: ['Phil', 'Trey']};
 ```
