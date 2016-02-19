@@ -1,0 +1,7 @@
+Fixes # .
+
+- [ ] I named my markdown file as the name of my feature, e.g. `my-feature.md`.
+- [ ] I added my markdown file to the root directory of this project.
+- [ ] I added an entry to slides.yaml with `filename: my-feature.md`.
+
+/cc @NodeDC/Organizers
