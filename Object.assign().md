@@ -50,6 +50,5 @@ var objectWithAGetter = {
 };
 
 var ourTeam = Object.assign({}, objectWithAGetter); 
-console.log(ourTeam); 
-// { name: 'Team Awesome', members: ['Trey', 'Phil'] }, the value of ourTeam.members is the computed return value
+console.log(ourTeam); // { name: 'Team Awesome', members: ['Trey', 'Phil'] }, the value of ourTeam.members is the computed return value
 ```
