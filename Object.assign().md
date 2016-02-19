@@ -21,6 +21,7 @@ console.log(ourAwesomeTeam); // {name: 'Team Awesome', members: ['Phil', 'Trey']
 
 ### Handling Exceptions
 
+```
 var targetWithReadOnlyProperty = Object.defineProperty({}, 'uh-oh', {
   value: 'this is going to throw an error, yo',
   writable: false
@@ -35,3 +36,4 @@ console.log(targetWithReadOnlyProperty.foo2); // 3, the first property of the se
 console.log(targetWithReadOnlyProperty['uh-oh']);  // 'this is going to throw an error, yo', exception is thrown here.
 console.log(targetWithReadOnlyProperty.foo3); // undefined, assign method has finished, foo3 will not be copied.
 console.log(targetWithReadOnlyProperty.baz);  // undefined, the third source will not be copied either.
+```
