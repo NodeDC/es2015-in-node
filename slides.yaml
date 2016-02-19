@@ -9,6 +9,12 @@
   filename: Object.getOwnPropertyNames().md
   url: https://gist.github.com/arasevic/574d8785fc02f49d5e80
 -
+  filename: Set.md
+  url: https://gist.github.com/pbrandt1/ce25523ae3634bd510f1
+-
+  filename: Promise.md
+  url: https://gist.github.com/jkeam/09d1fd2094b4bca666a3
+-
   filename: string_interpolation.MD
   url: https://gist.github.com/dan-ator/6a55c85964e9833a27c0
 -
@@ -39,3 +45,4 @@
   filename: map.md
   url: https://gist.github.com/ultrabluewolf/984afd74781a78c3b4a7
 - end.md
+-
