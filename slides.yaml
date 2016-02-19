@@ -51,4 +51,7 @@
   url: const.md
 - typed-array.md
 - array-includes.md
+-
+  filename: Object.setPrototypeOf.md
+  url: https://gist.github.com/ahouck/492a6f2ccedf083c2244
 - end.md
