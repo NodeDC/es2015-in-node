@@ -1,4 +1,10 @@
 -
+  filename: object-literal-extensions.md
+  url: https://gist.github.com/JuanCaicedo/0f7d44e0ca731930a55f
+-
+  filename: symbol.md
+  url: https://gist.github.com/mheiber/305b9d480cabc2881c79
+-
   filename: string-repeat.md
   url: https://gist.github.com/kylehill/3f88cd63bbb3f431176e
 -
@@ -8,4 +14,52 @@
   filename: Object.is.md
   url: https://gist.github.com/ahouck/d241b8d49ef4673b602d
 - string-from-codepoint-codepoint-at.md
+-
+  filename: Object.getOwnPropertyNames().md
+  url: https://gist.github.com/arasevic/574d8785fc02f49d5e80
+-
+  filename: Set.md
+  url: https://gist.github.com/pbrandt1/ce25523ae3634bd510f1
+-
+  filename: Promise.md
+  url: https://gist.github.com/jkeam/09d1fd2094b4bca666a3
+-
+  filename: string_interpolation.MD
+  url: https://gist.github.com/dan-ator/6a55c85964e9833a27c0
+- array-includes.md
+- enhanced-object-literals.md
+- Object.assign().md
+- spread.md
+  filename: binary-octal-literals.md
+  url: https://gist.github.com/solowt/032bc3e3661576da02c2
+- arrow.md
+- let.md
+- weakset.md
+-
+  filename: classes.md
+  url: https://gist.github.com/yalcindo/9b08010e6c6b130b6536
+-
+    filename: string-additions.md
+    url: https://gist.github.com/tylerfranklin/ebb21802bfa413d85642
+- rest.md
+- string-additions-unicode-normalize.md
+- string-additions-raw.md
+-
+  filename: generator.md
+  url: https://gist.github.com/sdotson/0c0f07bc2e3fe44449e4
+-
+  filename: map.md
+  url: https://gist.github.com/ultrabluewolf/984afd74781a78c3b4a7
+- ForOfLoops.md
+-
+  filename: const.md
+  url: const.md
+- typed-array.md
+- array-includes.md
+-
+  filename: Object.setPrototypeOf.md
+  url: https://gist.github.com/ahouck/492a6f2ccedf083c2244
+
+- filename: weakmaps.md
+  url: https://gist.github.com/rektide/917dfc1fd18d4772b457
 - end.md
