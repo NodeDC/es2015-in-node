@@ -23,7 +23,7 @@ const foo = 'foo';
 var obj = {
   foo,
   test() {return "test";},
-  ["bar" + func()] = "baz";
+  ["bar" + func()]: "baz";
 };
 ```
 
